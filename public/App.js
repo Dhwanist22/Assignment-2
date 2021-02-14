@@ -1,4 +1,4 @@
-const contentNode = document.getElementById('contents');
+const Nodecontent = document.getElementById('contents');
 const products = [];
 
 const ProductRow = props => React.createElement(
@@ -264,4 +264,4 @@ class ProductAdd extends React.Component {
 	}
 }
 
-ReactDOM.render(React.createElement(ProductList, null), contentNode);
+ReactDOM.render(React.createElement(ProductList, null), Nodecontent);
